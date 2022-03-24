@@ -1,0 +1,115 @@
+.Quantty_input{
+    margin: 0%;
+}
+
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 24px;
+    height: 23px;
+    font: 21px/1.2 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 5PX;
+    background-clip: padding-box;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 24px;
+    height: 23px;
+    font: 21px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 5PX;
+    background-clip: padding-box;
+}
+.center {
+    text-align: center;
+}
+.minus:hover{
+    background-color: #e9bc90 !important;
+}
+.plus:hover{
+    background-color: #e9bc90 !important;
+}
+
+.minus{
+    background-color: #B08B66 !important;
+}
+.plus{
+    background-color: #B08B66 !important;
+}
+/*Prevent text selection*/
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input{  
+    border: 0;
+    width: 2%;
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
+         
+.qty{
+
+margin-top: 1rem!important;
+
+border: solid 1px #C4C4C4;
+
+width: 121PX;
+
+margin-left: 174PX;
+
+padding-top: 4PX;
+
+padding-bottom: 4PX;
+}
+
+.delet_btn{
+
+    border-radius: 360PX !important;
+
+    border: solid 0px;
+    width: 30px !important;
+    margin-top: 23px !important;
+
+}
+
+.Subtotal{
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+
+
+
+.Checkout_btn{
+    background-color: #B08B66;
+    font-size: 20px !important;
+    color: white;
+    margin-top: 15px;
+}
